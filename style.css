@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: url(/abstract-studio-backdrop-white-gray-background_41981-992.jpg);
+    background-size: cover;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-sub{
+    margin-top: 3rem;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    
+}
+
+.main-sub h1{
+    margin-bottom: 1rem;
+    color: rgb(223, 37, 37);
+}
+
+.content{
+    height: 32rem;
+    width: 35rem;
+    background: white;
+    color: black;
+    border-radius: 20px;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.content h2{
+    color: rgb(210, 14, 14);
+    margin-top: 2rem;
+}
+.content p{
+    color: rgb(154, 147, 147);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.progress{
+    background-color: grey;
+    border-radius: 20px;
+    height: 7px;
+}
+
+.progress-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(205, 54, 54)!important;
+    border-radius: 20px;
+    transition: all 1s ease;
+    height: 100%;
+    width: 0;
+}
+
+
+.details{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+}
+
+.first-screen{
+    height: 28rem;
+    width: 30rem;
+}
+
+.name-detail label{
+    float: left;
+    font-weight: 900;
+    margin-bottom: .8rem;
+}
+.name-detail input{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 15px;
+    background: rgb(209, 209, 209);
+    padding-left: 20px;
+    font-size: 1.3rem;
+    outline: none;
+
+}
+
+.name-detail input::placeholder{
+    font-size: 1rem;
+    padding: 10px 10px 10px 10px;
+    color: rgb(88, 86, 86);
+    border: none;
+}
+.natureDetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.natureDetails label{
+    text-align: left;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.radio{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio-1{
+    background: rgb(209, 209, 209);
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    flex-basis: 40%;
+    text-align: left;
+    color: rgb(88, 86, 86);
+
+}
+.previousType{
+    display: flex;
+    flex-direction: column;
+}
+
+.previousType label{
+    text-align: left;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.second-screen{
+    /* transform: translateY(-22rem); */
+    height: 28rem;
+    width: 30rem;
+}
+
+.placeDetail label{
+    padding-top: 4rem;
+    float: left;
+    font-weight: 900;
+    margin-bottom: .8rem;
+}
+
+.placeDetail input{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 15px;
+    background: rgb(209, 209, 209);
+    padding-left: 20px;
+    font-size: 1.3rem;
+    outline: none;
+
+}
+
+.placeDetail input::placeholder{
+    font-size: 1rem;
+    padding: 10px 10px 10px 10px;
+    color: rgb(88, 86, 86);
+    border: none;
+}
+
+.select{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.select label{
+    font-weight: 900;
+    margin-bottom: .8rem;
+    text-align: left;
+}
+
+
+
+
+.transform{
+    transform: translateY(-30rem);
+}
+
+
+
+.select-box {
+    /* margin-left: 5rem; */
+  }
+  .select-box .box {
+    background: rgb(209, 209, 209);
+    width: 27rem;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    font-size: 2rem;
+    position: relative;
+  }
+  .select-box .box ion-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .select-box .hide-box {
+    background-color: rgb(185, 183, 183);
+    margin-top: 1rem;
+    width: 27rem;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .select-box .hide-box ul {
+    list-style: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    padding: 0 1rem 1rem 1rem;
+    margin-bottom: 0;
+    height: 10rem;
+    /* overflow: scroll; */
+    /* overflow-y: scroll; */
+    overflow-x: hidden;
+  }
+  .select-box .hide-box ul li {
+    padding: .5rem;
+    background: grey;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: .5rem;
+  }
+  .select-box .hide-box ul::-webkit-scrollbar {
+    width: 10px;
+    background-color: red;
+    border-radius: 20px;
+  }
+  .select-box .hide-box ul::-webkit-scrollbar-thumb {
+    background-color: aqua;
+    border-radius: 20px;
+  }
+  
+  .rotate {
+    transform: rotate(180deg);
+  }
+  
+  .box p {
+    font-size: 1.5rem;
+    margin: auto;
+  }
+
+.d-none{
+    display: none;
+}
+
+.d-block{
+    display: block;
+}
+
+
+.select-box {
+    margin-top: 1rem;
+    /* margin-left: 5rem; */
+  }
+  .select-box .box1 {
+    background-color: rgb(185, 183, 183);
+    
+    width: 27rem;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    font-size: 2rem;
+    position: relative;
+  }
+  .select-box .box1 ion-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .select-box .hide-box2 {
+    background-color: rgb(185, 183, 183);
+    margin-top: 1rem;
+    width: 27rem;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .select-box .hide-box2 ul {
+    list-style: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    padding: 0 1rem 1rem 1rem;
+    margin-bottom: 0;
+    height: 5rem;
+    overflow-x: hidden;
+  }
+  .select-box .hide-box2 ul li {
+    padding: .5rem;
+    background: grey;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: .5rem;
+  }
+  .select-box .hide-box2 ul::-webkit-scrollbar {
+    width: 10px;
+    background-color: red;
+    border-radius: 20px;
+  }
+  .select-box .hide-box2 ul::-webkit-scrollbar-thumb {
+    background-color: aqua;
+    border-radius: 20px;
+  }
+  
+  .rotate {
+    transform: rotate(180deg);
+  }
+  
+  .box1 p {
+    font-size: 1.5rem;
+    margin: auto;
+  }
+
+
+.select-box label{
+    font-weight: 900;
+    margin-bottom: .8rem;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+
+button{
+    padding: 10px;
+    margin: 1rem 10rem;
+    position: absolute;
+    top: 36rem;
+    border-radius: 10px;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front</title>
+    <link rel="stylesheet" href="/style.css">
+    
+
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="main-sub">
+            <h1>Driving License Renewal</h1>
+            <div class="content">
+                <div class="progress">
+                    <div class="progress-bar"></div>
+                </div>
+                <h2>Let's get Started!</h2>
+                <p>Add your details {As per your registered Records}</p>
+                <div class="details">
+                    <div class="first-screen">
+                        <div class="name-detail">
+                            <label for="name">Name</label>
+                            <input type="text" onkeyup="text(this)" placeholder="Enter Name" id="name">
+                        </div>
+                        <div class="natureDetails">
+                            <label>Nature of Driving License</label>
+                            <div class="radio">
+                                <div class="radio-1">
+                                    <input type="radio" onchange="radio(this)" id="private" name="nature"
+                                        value="Private">
+                                    <label for="private">Private</label>
+                                </div>
+                                <div class="radio-1">
+                                    <input type="radio" onchange="radio(this)" id="Commercial" name="nature"
+                                        value="Commercial">
+                                    <label for="Commercial">Commercial</label>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="previousType">
+                            <label>Type of Previous Driving License</label>
+                            <div class="radio">
+                                <div class="radio-1">
+
+                                    <input type="radio" class="change" onchange="radio(this)" id="paper" name="type"
+                                        value="paper">
+                                    <label for="paper">Paper Driving License</label>
+                                </div>
+                                <div class="radio-1">
+
+                                    <input type="radio" class="change" id="smart" name="type" onchange="radio(this)"
+                                        value="smart">
+                                    <label for="smart">Smart Driving License</label>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="second-screen">
+                        <div class="placeDetail">
+                            <label for="place">Place where Driving License was issued</label>
+                            <input onkeyup="text(this)" type="text" placeholder="Enter Place Name" id="place">
+                        </div>
+                        <div class="select-box">
+                            <label >Issued Year of License</label>
+                            <div class="box">
+                                <p>Choose Issued Year OF License</p>
+                                <ion-icon class="icon" name="caret-down-outline"></ion-icon>
+                            </div>
+                            <div class="hide-box d-none">
+                                <ul>
+                                    <li onclick="textChange(this)">2000</li>
+                                    <li onclick="textChange(this)">2001</li>
+                                    <li onclick="textChange(this)">2002</li>
+                                    <li onclick="textChange(this)">2003</li>
+                                    <li onclick="textChange(this)">2004</li>
+                                    <li onclick="textChange(this)">2005</li>
+                                    <li onclick="textChange(this)">2006</li>
+                                    <li onclick="textChange(this)">2007</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="select-box">
+                            <label >Type of previous Driving License</label>
+                            <div class="box1">
+                                <p>Choose Expired Year of License</p>
+                                <ion-icon class="icon1" name="caret-down-outline"></ion-icon>
+                            </div>
+                            <div class="hide-box2 d-none">
+                                <ul>
+                                    <li onclick="textChange2(this)">2022</li>
+                                    <li onclick="textChange2(this)">2021</li>
+                                    <li onclick="textChange2(this)">2020</li>
+                                    <li onclick="textChange2(this)">2019</li>
+                                    <li onclick="textChange2(this)">2018</li>
+                                    <li onclick="textChange2(this)">2017</li>
+                                    <li onclick="textChange2(this)">2016</li>
+                                    <li onclick="textChange2(this)">2015</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+
+
+
+                </div>
+                <button id="btn" class="d-none">back</button>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>
