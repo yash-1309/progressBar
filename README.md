@@ -1,7 +1,7 @@
 Hi this is a demo file made using HTML and CSS
 
 ScreenShot:-
-![Uploading image.png…]()
 
 
-Preview Link:- https://yash-963.github.io/progressbar/
+
+Preview Link:- <a href="https://yash-963.github.io/progressbar/" target="_blank">[Go](https://yash-963.github.io/progressbar/)https://yash-963.github.io/progressbar/</a>
