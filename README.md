@@ -6,4 +6,4 @@ ScreenShot:-
 
 
 Preview:-
-<a href="https://yash-963.github.io/progressbar/" target="blank">https://yash-963.github.io/progressbar</a>
+<a href="https://yash-963.github.io/progressbar/" target="_blank">https://yash-963.github.io/progressbar</a>
